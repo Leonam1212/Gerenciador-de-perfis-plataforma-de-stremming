@@ -180,7 +180,7 @@ footer button:hover{
 	color:var(--theme-bg-color);
 }
 
-@media (min-width: 768px) {
+@media (min-height:768px) and (min-width: 768px) {
 	header.topo{
 		display:flex;
 		justify-content:center;
@@ -306,19 +306,23 @@ footer button:hover{
 
 
 }
-@media (min-width: 1024px){
+@media (min-width: 1200px){
 	header.topo{
+		
 		display:flex;
 		justify-content:left;
+		
 					
 	}
 	header.topo figure img {
 		width: 300px;
 	}
 
+
 	section header h2 {
 		font-size: 50px;
 	}
+
 
 
 	/* Box para posicionar o conteúdo no centro da página */
