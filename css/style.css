@@ -33,7 +33,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 :root{
 	--font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
   	--theme-bg-color: #00002E;
-	--user-box-width: 168px;
+	--user-box-width: 186px;
 	--box-all-user:858px;
 	--white-color: #fff;
 
@@ -105,7 +105,8 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	}
 	.user__list .user__list__item {
 		
-		width:var(--user-box-width); 
+		width:168px; 
+	
 		
 	}
 
@@ -336,6 +337,7 @@ footer button:hover{
 
 	/* Box caixa com todos os elementos largura 858px */
 	.user__list {
+		
 		width:var(--box-all-user);
 	}
 
@@ -347,6 +349,7 @@ footer button:hover{
 	}
 
 	.user__list .user__list__item Figure {
+	
 		height: 163px;
 	}
 
